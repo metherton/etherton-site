@@ -108,7 +108,7 @@ export class EthertonSite extends LitElement {
         header ul {
           display: flex;
           justify-content: space-between;
-          min-width: 400px;
+          min-width: 360px;
           margin: 0 auto;
           padding: 0;
         }
