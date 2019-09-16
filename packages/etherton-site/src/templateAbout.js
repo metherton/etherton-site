@@ -3,7 +3,11 @@ import { html } from 'lit-html';
 export const templateAbout = html`
   <div>
     <h1>About this output</h1>
+
+      <section><img style="display:block;margin: auto;" src="martin.JPG" alt="martin etherton" height="681" width="500"></section>
+
     <ul>
+
       <li>3x web components (app, main page, page one)</li>
       <li>1x external template (about page)</li>
       <li>
