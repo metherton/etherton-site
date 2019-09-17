@@ -31,4 +31,11 @@ describe('EthertonSite', () => {
 
     expect(el.page).to.equal('about');
   });
+
+  it('has first menu option called "Home"', async () => {
+    const el = await fixture(html`
+      <etherton-site></etherton-site>
+    `);
+    expect(el.shadowRoot.querySelector('header ul li a').innerText).to.equal(`Main`);
+  });
 });

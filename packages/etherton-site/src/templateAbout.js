@@ -4,7 +4,7 @@ export const templateAbout = html`
   <div>
     <h1>About this output</h1>
 
-      <section><img style="display:block;margin: auto;" src="martin.JPG" alt="martin etherton" height="681" width="500"></section>
+      <section><img style="display:block;margin: auto;" src="martin.png" alt="martin etherton" height="681" width="500"></section>
 
     <ul>
 

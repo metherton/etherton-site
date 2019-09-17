@@ -52,19 +52,13 @@ export class EthertonSite extends LitElement {
       <header>
         <ul>
           <li>
-            <a href="#main" class=${this.__addActiveIf('main')} @click=${this.__clickPageLink}
-              >Main</a
-            >
+            <a href="#main" class=${this.__addActiveIf('main')} @click=${this.__clickPageLink}>Main</a>
           </li>
           <li>
-            <a href="#pageOne" class=${this.__addActiveIf('pageOne')} @click=${this.__clickPageLink}
-              >Page One</a
-            >
+            <a href="#pageOne" class=${this.__addActiveIf('pageOne')} @click=${this.__clickPageLink}>Page One</a>
           </li>
           <li>
-            <a href="#about" class=${this.__addActiveIf('about')} @click=${this.__clickPageLink}
-              >About</a
-            >
+            <a href="#about" class=${this.__addActiveIf('about')} @click=${this.__clickPageLink}>About</a>
           </li>
         </ul>
       </header>
